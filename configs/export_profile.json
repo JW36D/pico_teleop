@@ -1,0 +1,11 @@
+{
+  "image_max_age_ms": 50,
+  "feedback_max_age_ms": 50,
+  "gripper_max_age_ms": 250,
+  "telemetry_max_age_ms": 50,
+  "inactive_arm": "hold_observed",
+  "gripper_without_target": "hold_observed_if_uncommanded",
+  "release_action": "observed_hold_after_acknowledged_stop",
+  "grid_origin": "start_plus_one_period",
+  "strict_whole_episode": true
+}

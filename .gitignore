@@ -1,0 +1,7 @@
+__pycache__/
+*.py[cod]
+app/state/*
+!app/state/.gitkeep
+*.partial-*/
+.venv/
+configs/cameras.json

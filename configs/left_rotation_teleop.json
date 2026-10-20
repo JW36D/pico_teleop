@@ -1,0 +1,133 @@
+{
+  "arm": "left",
+  "headset_to_work_matrix": [
+    [
+      0,
+      0,
+      -1
+    ],
+    [
+      -1,
+      0,
+      0
+    ],
+    [
+      0,
+      1,
+      0
+    ]
+  ],
+  "translation_reference": "operator_heading",
+  "position_priority": false,
+  "tracking_governor": true,
+  "tracking_governor_mode": "continuous",
+  "boundary_behavior": "directional",
+  "max_command_lead_m": 0.045,
+  "max_command_lead_angle_rad": 0.2,
+  "rotation_mapping": "neutral_tool_axes",
+  "controller_to_tool_matrix": [
+    [
+      1,
+      0,
+      0
+    ],
+    [
+      0,
+      1,
+      0
+    ],
+    [
+      0,
+      0,
+      1
+    ]
+  ],
+  "auto_resume_soft_limits": true,
+  "auto_resume_timing_gaps": true,
+  "max_recoverable_control_gap_s": 0.15,
+  "advance_on_same_frame": true,
+  "follow_mode": "low",
+  "stream_trajectory_mode": 0,
+  "stream_radio": 0,
+  "position_scale": 1.0,
+  "rotation_scale": 1.0,
+  "target_smoothing_tau_s": 0.01,
+  "max_linear_speed_m_s": 0.45,
+  "max_angular_speed_rad_s": 2.0,
+  "max_linear_accel_m_s2": 8.0,
+  "max_angular_accel_rad_s2": 12.0,
+  "max_joint_speed_deg_s": 150.0,
+  "joint_session_limits_enabled": false,
+  "min_wrist_angle_deg": 0.0,
+  "max_tracking_error_m": 0.075,
+  "max_tracking_angle_rad": 0.4,
+  "max_input_age_ms": 100,
+  "control_hz": 100,
+  "feedback_hz": 100.0,
+  "max_feedback_age_ms": 250,
+  "feedback_timeout_s": 0.15,
+  "max_control_gap_s": 0.03,
+  "max_command_gap_s": 0.03,
+  "log_interval_s": 0.5,
+  "translation_mapping_frame": "robot_body",
+  "robot_body_to_install_matrix": [
+    [
+      1,
+      0,
+      0
+    ],
+    [
+      0,
+      1,
+      0
+    ],
+    [
+      0,
+      0,
+      1
+    ]
+  ],
+  "robot_body_expected_installation_deg": [
+    0,
+    45,
+    0
+  ],
+  "physical_direction_validation": "pending_left_operator_axis_check_20261015",
+  "robot_frame_evidence": "2026-10-15 read-only: left installation [0,+45,0] deg, work Base pitch +0.785 rad, tool Arm_Tip zero offset. Body-to-install yaw alignment assumed shared with confirmed right reference; physical left axis check pending.",
+  "rotation_reference": "first left grip: hand down, XY side toward operator; calibrated axes retained across regrips",
+  "rotation_control_mode": "full",
+  "session_pose_limits_enabled": false,
+  "clutch_rotation_limits_enabled": false,
+  "rotation_path_mode": "incremental",
+  "mapper_control_gap_guard": false,
+  "input_jump_mode": "velocity",
+  "max_hand_linear_speed_m_s": 5.0,
+  "max_hand_angular_speed_rad_s": 20.0,
+  "continuous_input_recovery": true,
+  "max_input_gap_ms": 150.0,
+  "continuous_timing_recovery": true,
+  "require_robot_stationary_to_anchor": false,
+  "joint_trajectory_enabled": true,
+  "max_joint_accel_deg_s2": 600.0,
+  "tracking_governor_curve": "plateau",
+  "command_lead_full_speed_ratio": 0.8,
+  "tracking_error_grace_s": 0.15,
+  "tracking_error_time_alignment": true,
+  "feedback_checks_interval_s": 1.0,
+  "task_workspace": null,
+  "boundary_reference_mode": "fixed",
+  "translation_heading_mode": "session",
+  "cartesian_rotation_weight_m": 0.17857142857142858,
+  "gripper": {
+    "enabled": true,
+    "driver": "realman_inspire",
+    "speed": 1000,
+    "force": 500,
+    "trigger_close": 0.6,
+    "trigger_open": 0.4,
+    "control_mode": "proportional",
+    "command_hz": 50.0,
+    "feedback_hz": 20.0,
+    "position_deadband": 2
+  }
+}

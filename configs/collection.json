@@ -1,0 +1,88 @@
+{
+  "schema": "pico_collection_config_v1",
+  "data_root": "../../data/pico_raw",
+  "camera_config": "cameras.json",
+  "left_config": "left_rotation_teleop.json",
+  "right_config": "right_rotation_teleop.json",
+  "receiver_socket": "../../RM/pico_xr/state/pico.sock",
+  "camera_python": "/usr/bin/python3",
+  "task": "将物料分拣到对应料盒（通用物料分拣验收）",
+  "chord_window_ms": 200,
+  "max_event_age_ms": 150,
+  "source_stale_ms": 250,
+  "min_free_gb": 5,
+  "writer": {
+    "history_s": 2.0,
+    "commit_lag_s": 0.5,
+    "source_capacity": 1024,
+    "max_pending": 4
+  },
+  "headset": {
+    "apk_version": "v1.1.1",
+    "switch_with_a_disabled_verified": true,
+    "mapping_verified": true,
+    "operator_setting_confirmation_date": "2026-10-16",
+    "mapping_evidence": "reports/collection_20261016/buttons_live_after_update.jsonl"
+  },
+  "video": {
+    "enabled": true,
+    "mode": "listen",
+    "headset_ip": null,
+    "port": 12345,
+    "listen_port": 13579,
+    "width": 2560,
+    "height": 720,
+    "fps": 60,
+    "bitrate": 4000000,
+    "send_timeout_ms": 150,
+    "operator_two_eye_panel_verified": true,
+    "apk_profile": "XRoboToolkit v1.1.1 ZEDMINI",
+    "decoder_profiles": [
+      {
+        "camera": "ZED",
+        "width": 2560,
+        "height": 720,
+        "fps": 60
+      },
+      {
+        "camera": "VR",
+        "width": 2160,
+        "height": 810,
+        "fps": 60
+      }
+    ],
+    "stale_ms": 150
+  },
+  "hardware_validation": {
+    "deferred_by_operator": true,
+    "date": "2026-10-16",
+    "reason": "相机取流和头显显示已恢复；用户确认蓝膜未揭且夹爪尖端可能不在视野内，决定揭膜和相机朝向由项目方处理，正式分拣验收延期",
+    "camera_frames_verified": true,
+    "camera_evidence": "data/camera-checks/20261016_after_reboot_104243/report.json",
+    "headset_video_verified": true,
+    "headset_flat_panel_verified": true,
+    "headset_neck_preview_verified": true,
+    "no_headset_video_recording_verified": true,
+    "joint_load_verified": true,
+    "joint_load_mode": "PREVIEW_NO_MOTION",
+    "joint_load_seconds": 600.373,
+    "joint_load_evidence": "reports/collection_20261016/load_wifi_no_ps.json",
+    "real_task_verified": false,
+    "real_export_verified": true,
+    "headset_end_to_end_p95_ms": null,
+    "headset_evidence": "2026-10-16 用户确认头显有画面、B切换正常；后续继续验证优化版本与联合负载",
+    "camera_image_quality_verified": false,
+    "gripper_tips_in_view_verified": false,
+    "formal_sorting_deferred": true,
+    "real_motion_empty_load_verified": true,
+    "real_motion_evidence": "reports/collection_20261016/formal_first_two_raw.json",
+    "real_export_mode": "EXECUTE_EMPTY_LOAD",
+    "real_export_formats": [
+      "v2.1",
+      "v3.0"
+    ],
+    "real_export_evidence": "reports/collection_20261016/formal_export_comparison.json",
+    "recording_without_headset_video_execute_verified": true,
+    "motion_with_continuous_video_verified": false
+  }
+}
