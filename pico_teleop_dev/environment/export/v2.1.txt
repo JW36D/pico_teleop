@@ -1,0 +1,12 @@
+torch==2.7.1
+torchvision==0.22.1
+numpy==1.26.4
+opencv-python-headless==4.11.0.86
+datasets==3.6.0
+huggingface-hub==0.35.3
+av==15.1.0
+deepdiff==8.6.1
+diffusers==0.35.2
+fsspec==2025.3.0
+zarr==2.18.7
+numcodecs==0.13.1

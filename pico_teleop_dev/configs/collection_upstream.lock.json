@@ -1,0 +1,6 @@
+{
+  "orin_video_sender": {"url":"https://github.com/XR-Robotics/XRoboToolkit-Orin-Video-Sender", "commit":"8bedc7bb225628235f97b6e51bfde5a2a3704031", "protocol":"TCP network-u32 length-prefixed H.264 access units; OPEN_CAMERA CA FE v1"},
+  "unity_client_source_inspected": {"url":"https://github.com/XR-Robotics/XRoboToolkit-Unity-Client", "commit":"cdc53166b0bf412efae71046c6a225eb5091605f", "installed_apk_match_verified":false},
+  "lerobot_v21": {"url":"https://github.com/huggingface/lerobot", "commit":"0cf864870cf29f4738d3ade893e6fd13fbd7cdb5", "reader_verified":false},
+  "lerobot_v30": {"url":"https://github.com/huggingface/lerobot", "commit":"0b067df57d21d3a02d6c511f1609172fa39ac29b", "release":"v0.4.3", "reader_verified":false}
+}

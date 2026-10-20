@@ -4,4 +4,4 @@ app/state/*
 !app/state/.gitkeep
 *.partial-*/
 .venv/
-configs/cameras.json
+/configs/cameras.json

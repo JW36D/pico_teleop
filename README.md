@@ -53,7 +53,7 @@ bash ./run_collection.sh --summary /本次raw会话目录
 bash ./run_collection.sh --demo
 ```
 
-普通遥操、接收服务启动、回位及检查工具集中在相邻的 [pico_teleop_dev](../pico_teleop_dev/README.md)。已有接收服务可以继续使用。
+普通遥操、接收服务启动、回位及检查工具集中在仓库内的 [pico_teleop_dev](pico_teleop_dev/README.md)。已有接收服务可以继续使用。
 
 ## 目录
 
@@ -64,4 +64,4 @@ bash ./run_collection.sh --demo
 | `configs/` | 相机模板、采集、左右臂和导出配置；复制 `cameras.example.json` 为 `cameras.json` 并填写本机相机序列号 |
 | `app/` | 运行代码；诊断日志在 `app/state/` |
 
-日常运行不依赖开发目录中的测试和工具。当前控制Python仍使用相邻 `RM/.venv/bin/python`，接收器沿用已有服务。部署路径、转换数据语义和验证范围见[开发与迁移说明](../pico_teleop_dev/docs/开发与迁移说明.md)。
+日常运行不依赖开发目录中的测试和工具。当前控制Python仍使用相邻 `RM/.venv/bin/python`，接收器沿用已有服务。部署路径、转换数据语义和验证范围见[开发与迁移说明](pico_teleop_dev/docs/开发与迁移说明.md)。

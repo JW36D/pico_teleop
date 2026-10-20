@@ -1,0 +1,60 @@
+{
+  "name": "left_before_pico_teleop",
+  "arm": "left",
+  "source": "reports/left_right_readonly_inventory_20261015.json:sides.left.rm_get_joint_degree[1]",
+  "source_sha256": "96d2fbd65ddca900394365c09537e35f0fad2ce4a2390cbcec4a73c0a5001c66",
+  "joints_deg": [
+    -84.89900207519531,
+    -65.71399688720703,
+    -29.20800018310547,
+    -130.875,
+    87.13899993896484,
+    188.83799743652344
+  ],
+  "pose_wxyz": [
+    0.1476789265871048,
+    -0.43023815751075745,
+    0.233326718211174,
+    0.3366148769855499,
+    -0.6011677384376526,
+    0.6829940676689148,
+    -0.2425016462802887
+  ],
+  "frames": {
+    "rm_get_current_work_frame": {
+      "name": "Base",
+      "pose": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.785,
+        0.0
+      ],
+      "payload": 0.0,
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "rm_get_current_tool_frame": {
+      "name": "Arm_Tip",
+      "pose": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "payload": 0.0,
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    }
+  },
+  "installation_deg": [
+    0.0,
+    45.0,
+    0.0
+  ]
+}

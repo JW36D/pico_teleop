@@ -1,0 +1,34 @@
+{
+  "arm": "right",
+  "headset_to_work_matrix": [
+    [
+      0,
+      0,
+      -1
+    ],
+    [
+      -1,
+      0,
+      0
+    ],
+    [
+      0,
+      1,
+      0
+    ]
+  ],
+  "position_scale": 0.1,
+  "rotation_scale": 0.0,
+  "max_session_translation_m": 0.01,
+  "max_session_rotation_rad": 0.05,
+  "max_linear_speed_m_s": 0.005,
+  "max_angular_speed_rad_s": 0.1,
+  "max_joint_speed_deg_s": 2.0,
+  "max_joint_session_deg": 2.0,
+  "max_tracking_error_m": 0.005,
+  "max_tracking_angle_rad": 0.05,
+  "max_input_step_m": 0.1,
+  "max_input_step_rad": 0.5235987756,
+  "max_input_age_ms": 100,
+  "control_hz": 50
+}
